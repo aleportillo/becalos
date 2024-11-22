@@ -15,8 +15,29 @@ body{
 
 div{
     border: 1px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
 }
 
-h1, h2{
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+.title, .subtitle {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle{
+    color: rgb(241, 241, 115);
     margin-bottom: 1rem;
+}
+
+.card{
+    margin-bottom: 1.5rem;
 }
