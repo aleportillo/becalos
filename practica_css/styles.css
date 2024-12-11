@@ -4,40 +4,45 @@
     box-sizing: border-box;
 }
 
-
-body{
+body {
     background-color: rgb(51, 51, 51);
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.5; 
+    letter-spacing: 0.5px; 
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
 
-div{
+div {
     border: 1px solid white;
     padding: 1rem;
     border-radius: 1rem;
     background-color: black;
 }
 
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1{
+h1 {
     margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 
 .title, .subtitle {
     font-weight: 600;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: inherit;
 }
 
-.subtitle{
+.subtitle {
     color: rgb(241, 241, 115);
     margin-bottom: 1rem;
+    text-transform: capitalize; 
 }
 
-.card{
+.card {
     margin-bottom: 1.5rem;
+}
+
+p {
+    font-family: inherit; 
+    color: inherit; 
 }
