@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Dulce o truco</h1>
+
+        <section class="filter-container">
+            Filtrar por:
+            <select class="filter-select">
+                <option value="all">Todos los precios</option>
+                <option value="49">Menor a $50</option>
+                <option value="50-99">$50 - $100</option>
+                <option value="100">Mayor a $100</option>
+            </select>
+        </section>
+
+        <section class="items-container"></section>
+
+        <section class="resume-container">
+            <h2> Resumen </h2>
+            <div class="categories-container">
+                <p> Categorias disponibles: </p>
+            </div>
+            <div class="categories-count">
+                <p> Total de productos por categoria: </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
