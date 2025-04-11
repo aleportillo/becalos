@@ -1,0 +1,32 @@
+{
+  "notas": [
+    {
+      "titulo": "Tareas",
+      "contenido": "Terminar el proyecto de matemáticas."
+    },
+    {
+      "titulo": "Citas",
+      "contenido": "Ir al dentista el martes a las 4pm."
+    },
+    {
+      "titulo": "Ideas",
+      "contenido": "Crear una app para organizar notas."
+    },
+    {
+      "titulo": "Libros",
+      "contenido": "Leer “El nombre del viento” este mes."
+    },
+    {
+      "titulo": "Recordatorios",
+      "contenido": "Llamar a mamá el viernes."
+    },
+    {
+      "titulo": "Películas",
+      "contenido": "Ver “Dune” el fin de semana."
+    },
+    {
+      "titulo": "Viaje",
+      "contenido": "Empacar ropa y pasaporte."
+    }
+  ]
+}
