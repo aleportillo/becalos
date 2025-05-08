@@ -1,0 +1,92 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fafafa;
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+h1 {
+	text-align: center;
+	background-color: #3498db;
+	color: white;
+	padding: 25px;
+	margin: 0;
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	max-width: 800px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#addOrderBtn {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	background-color: #3498db;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#addOrderBtn:hover {
+	background-color: #2980b9;
+	transform: translateY(-3px);
+}
+
+ul#orderList {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	background-color: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.3s ease;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+	background-color: #f1f1f1;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-status {
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.order-status.pending {
+	background-color: #f39c12;
+	color: white;
+}
+
+.order-status.process {
+	background-color: #12bbf3;
+	color: white;
+}
+
+.order-status.complete {
+	background-color: #2ecc71;
+	color: white;
+}
