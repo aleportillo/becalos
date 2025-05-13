@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inventario de la Biblioteca</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Gestión del Inventario de la Biblioteca</h1>
+
+		<div class="form-container" id="addBookFormContainer">
+			<h2>Agregar un Nuevo Libro</h2>
+			<form id="addBookForm" class="inline-form">
+				<input type="text" id="title" name="title" placeholder="Título" required />
+				<input type="text" id="author" name="author" placeholder="Autor" required />
+				<input type="text" id="genre" name="genre" placeholder="Género" required />
+				<select id="availability" name="availability">
+					<option value="disponible">Disponible</option>
+					<option value="prestado">Prestado</option>
+				</select>
+				<button class="button" type="submit">Agregar</button>
+			</form>
+		</div>
+
+		<div class="book-list-container">
+			<h2>Libros Disponibles</h2>
+			<table class="book-list" id="bookList">
+				<thead>
+					<tr>
+						<th>Título</th>
+						<th>Autor</th>
+						<th>Género</th>
+						<th>Disponibilidad</th>
+						<th>Acciones</th>
+					</tr>
+				</thead>
+				<tbody id="table-body">
+				</tbody>
+			</table>
+		</div>
+        <script src="app.js"></script>
+	</body>
+</html>
