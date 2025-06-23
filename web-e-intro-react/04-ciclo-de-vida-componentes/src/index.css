@@ -1,0 +1,58 @@
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: #00ff99;
+	background-color: #0a0f1c;
+	font-family: 'Orbitron', sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Orbitron', sans-serif;
+}
+
+body,
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+.txt-secondary {
+	color: #cccccc;
+}
+
+#root {
+	flex-direction: row;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	min-width: 400px;
+	margin: 1rem;
+	height: calc(100% - 2rem);
+	border: 2px dashed #0066ff;
+}
+
+.container div:not(:first-of-type) {
+	border-top: 2px dashed #0066ff;
+	padding: 1rem;
+	flex: 1;
+}
+
+h1 {
+	text-align: center;
+	padding: 0.5rem;
+}
