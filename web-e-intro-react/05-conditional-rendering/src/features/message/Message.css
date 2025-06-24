@@ -1,0 +1,18 @@
+p {
+	font-size: 1.1rem;
+	margin-top: 20px;
+}
+
+p {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+p.correct {
+	color: #32cd32;
+}
+
+p.incorrect {
+	color: #ff6347;
+}

@@ -1,0 +1,16 @@
+.game-container {
+	background-color: #333;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	width: 100%;
+	max-width: 400px;
+}
+
+.game-container h1 {
+	font-size: 2.5rem;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
