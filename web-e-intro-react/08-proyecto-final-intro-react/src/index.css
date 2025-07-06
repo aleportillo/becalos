@@ -1,0 +1,9 @@
+:root {
+	--color-base-content: oklch(87.224% 0.00113 201.991);
+	--color-neutral-content: oklch(87.224% 0.00113 201.991);
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
